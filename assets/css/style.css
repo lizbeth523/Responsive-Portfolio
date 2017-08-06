@@ -1,0 +1,342 @@
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+body {
+	background-image: url("../images/sakura.png");
+}
+
+footer {
+	background-color: #666666;
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: thick;
+	bottom:0;
+	font-size: 0.8em;
+	height: 30px;
+	left: 0;
+	margin-top: auto;
+	padding: 25px;
+	position:fixed;
+	right: 0;
+	text-align: center;
+}
+
+h1 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	display: inline;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 2em;
+	font-weight: bold;
+	height: 75%;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	padding: 19px;
+	text-align: center;
+	width: 300px;
+}
+
+h2 {
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+h3 {
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 1.17em;
+	font-weight: bold;
+	padding-bottom: 0.5em;
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+	height: 50px;
+	margin-bottom: 2em;
+	padding-top: 2em;
+}
+
+html {
+	
+}
+
+img {
+	max-width: 20%;
+}
+
+li {
+	position: relative;
+	width: 100%;
+}
+
+section {
+
+}
+
+ul {
+	margin: 0 auto;
+    text-align: center;
+}
+
+.connect {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: thin;
+	float: right;
+	padding: 20px;
+	text-align: center;
+	width: 230px;
+}
+
+.container {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	overflow: auto;
+	margin: auto;
+	width: 960px;
+}
+
+.content {
+	background-color: #ffffff;
+	border-color: #cccccc;
+	border-style: solid;
+	border-width: thin;
+	float: left;
+	padding: 20px;
+	width: 640px;
+}
+
+.desc {
+	background-color: #4aaaa5;
+	bottom: 0;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	position: relative
+	text-align: center;
+	width: 100px;
+}
+
+.gallery {
+	width: 50%;
+}
+
+.hdr-container {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: auto;
+	width: 960px;
+}
+
+.links {
+	float: right;
+	padding-right: 50px;
+}
+
+.portfolio-items {
+    width: auto;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.submit-btn {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#my-pic {
+	float: left;
+	margin-right: 5px;
+}
+
+
+@media screen and (max-width: 980px) {
+	h1 {
+		margin-left: 0;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	.container {
+		width: 769px;
+	}
+
+	.content {
+		margin-bottom: 6em;
+		width: 55%;
+	}
+
+	.desc {
+		width: 100%;
+	}
+
+	.gallery {
+		margin-top: 1em;
+		width: 100%;
+	}
+
+	.hdr-container {
+		width: 769px;
+	}
+
+	.portfolio-items {
+		display: inline;
+	}
+
+	#my-pic {
+		margin-bottom: 1em;
+		margin-right: 1em;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+	h1 {
+		margin-left: 0;
+	}
+
+	header {
+		padding-top: 1.5em;
+	}
+
+	img {
+		max-width: 40%;
+	}
+
+	.connect {
+		float: left;
+		margin-bottom: 6em;
+		text-align: left;
+		width: 90%;
+	}
+
+	.container {
+		width: 641px;
+	}
+
+	.content {
+		margin-bottom: 2em;
+		width: 90%;
+	}
+
+	.desc {
+		bottom: 0;
+		position: relative
+		text-align: center;
+		width: 95%;
+	}
+
+	.gallery {
+		width: 50%;
+	}
+
+	.hdr-container {
+		width: 641px;
+	}
+
+	.portfolio-img {
+		max-width: 95%;
+	}
+
+	.portfolio-items {
+    	width: auto;
+    	margin-top: 1.5em;
+    	display: flex;
+    	justify-content: space-around;
+    	flex-wrap: wrap;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	h1 {
+		display: block;
+		margin: 0 0 0.3em 0;
+		position: relative;
+		width: 100%;
+	}
+
+	header {
+		padding: none;
+		position: static;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	p {
+		float: left;
+		padding-top: 1em;
+	}
+
+	.connect {
+		float: left;
+		margin: 1em 2em 6em 2em;
+		text-align: left;
+		width: 80%;
+	}
+
+	.container {
+		width: 100vw;
+	}
+
+	.content {
+		float: left;
+		margin: 1em 2em 1em 2em;
+		padding: 1.5em;
+		text-align: left;
+		width: 80%
+	}
+
+	.desc {
+		width: 95%;
+	}
+
+	.hdr-container {
+		width: 100vw;
+	}
+
+	.links {
+		float: none;
+		text-align: center;
+	}
+
+	.gallery {
+		margin: auto;
+		margin-top: 1em;
+		width: 90%;
+	}
+
+	.portfolio-items {
+		display: inline;
+	}
+
+	#my-pic {
+		margin: auto;
+		width: 90%;
+	}
+}
+
